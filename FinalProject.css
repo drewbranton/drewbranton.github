@@ -1,0 +1,56 @@
+#container {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    border: 4px solid black;
+  }
+  
+.paddle {
+    width: 10px;
+    height: 80px;
+    position: absolute;
+    background-color: blue;
+  }
+
+  
+#player1 {
+    left: 10px;
+    top: 160px;
+  }
+  
+#player2 {
+    right: 10px;
+    top: 160px;
+  }
+  
+#ball {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: lightseagreen;
+    border-radius: 50%;
+  }
+  
+#score {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 50px);
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+#player1Score {
+    float: left;
+  }
+  
+#player2Score {
+    float: right;
+  }
+  
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
